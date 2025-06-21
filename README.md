@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 📝 DK Todo App
 
-First, run the development server:
+A sleek and satisfying personal todo app that helps you manage your daily tasks with ease. Built for maximum productivity and simplicity, **DK Todo App** lets you plan your day, focus on what matters, and track your goals — all in one place.
+
+As a developer, building and using my own app gives a **next-level satisfaction 😊** — knowing it’s tailored exactly to how I work and think.
+
+### 🔗 Live Demo
+👉 [https://dk-todo-app.vercel.app](https://dk-todo-app.vercel.app)
+
+---
+
+## 🚀 Features
+
+- ✅ **Daily Task Management** – Plan your day and organize your tasks efficiently.
+- 📅 **7-Day Task History** – View and reflect on the past week's tasks.
+- 🔒 **Secure Auth with NextAuth** – Login securely with authentication support.
+- 📱 **Progressive Web App (PWA)** – Install the app and use it.
+- ⚡ **Optimized Performance** – Built with Next.js for speed and responsiveness.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend & Backend:** [Next.js](https://nextjs.org)
+- **Database:** [MongoDB + Mongoose](https://mongoosejs.com)
+- **Authentication:** [NextAuth.js](https://next-auth.js.org)
+- **Deployment:** [Vercel](https://vercel.com)
+- **PWA Support:** Built-in PWA configuration for installable experience
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/43d0bac2-124d-4bb9-9a1e-c72b45e55907" width="180" />&nbsp;
+  <img src="https://github.com/user-attachments/assets/c574d5f4-a350-424d-819a-dc5a08eb4bdf" width="180" />&nbsp;
+  <img src="https://github.com/user-attachments/assets/a0ffc43a-ef82-4c12-b1ce-1e228a12d736" width="180" />&nbsp;
+  <img src="https://github.com/user-attachments/assets/7b041263-b29f-4358-9920-739d02877393" width="180" />&nbsp;
+  <img src="https://github.com/user-attachments/assets/c3815427-12c2-49b0-a247-cd9c8dbdb536" width="180" />
+</p>
+
+
+---
+
+## 📦 Installation
 
 ```bash
+# Clone the repo
+git clone https://github.com/darshan1799/dk-todo-app.git
+
+# Install dependencies
+cd dk-todo-app
+npm install
+
+# Setup environment variables
+# Create a .env.local file and add necessary keys (MongoDB URI, Auth secrets, etc.)
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🙋‍♂️ Author
 
-## Learn More
+**Darshan Patel**
+🔗 [GitHub](https://github.com/darshan1799)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like this project, feel free to ⭐️ the repo and share it!
